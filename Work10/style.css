@@ -22,7 +22,7 @@ main{
   padding:10px;
   position: relative;
   margin-right:30px;
-  
+
 }
 
 .step{
@@ -47,7 +47,7 @@ main{
   height:150px;
   background-size:cover;
   background-position:bottom;
-  
+
 }
 
 .image3{
@@ -73,18 +73,19 @@ footer{
 }
 
 @media screen and (max-width:768px){
-  
+
   main{
     display:block;
     width:100%;
     margin:50px 0;
   }
-  
+
   .main-visual{
     width:90%;
-    margin:0 20px;
+    margin:0 5%;
   }
-  
+
   .main-visual:nth-child(2){
-    margin:20px;
+    margin:20px 5%;
+}
 }
